@@ -1,0 +1,22 @@
+# Секреты — НИКОГДА не коммитить
+.env
+*.session
+*.session-journal
+
+# PID и логи
+monitor_pid.txt
+logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Резюме (личные данные)
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
